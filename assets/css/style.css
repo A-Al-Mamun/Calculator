@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main{
+    width: 100%;
+    text-align: center;
+}
+.calculator{
+    width: 500px;
+    margin: 0 auto;
+}
+.calculator h1{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.calculator-body{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 4 1fr;
+    grid-template-rows: 6 1fr;
+    
+}
+.calculator-body textarea{}
+.calculator-body button{}
